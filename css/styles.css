@@ -1,6 +1,10 @@
 .logo {
     font-family: Raleway;
     font-weight: 700;
+    color: #2196F3;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
 nav a {
     font-family: Roboto;
@@ -15,10 +19,7 @@ h1 {
     font-weight: 700;
     color: #212121;
 }
-.div {
-    font-weight: 500;
-    font-size: 16px;
-}
+
 
 
 
