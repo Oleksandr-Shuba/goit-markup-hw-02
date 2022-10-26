@@ -1,10 +1,10 @@
+body {
+    background-color: #F5F5F5;
+}
 .logo {
     font-family: Raleway;
     font-weight: 700;
-    color: #2196F3;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    text-decoration: none; 
 }
 nav a {
     font-family: Roboto;
@@ -19,6 +19,37 @@ h1 {
     font-weight: 700;
     color: #212121;
 }
+.about_us .link {
+    color: #212121;
+}
+.about_us .link:hover,
+.about_us .link:focus {
+    color: #2196F3;
+}
+.contacts .email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.contacts .mobile {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.buttons .button .Усі {
+    cursor: pointer;
+}
+
+
+
 
 
 
