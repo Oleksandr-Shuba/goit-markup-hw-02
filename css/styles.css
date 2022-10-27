@@ -63,7 +63,7 @@ h1 {
     cursor: pointer;
     background-color: #F5F4FA; 
     color: #212121;
-    border: none;
+    border-radius: 4px;
 }
 .button:hover,
 .button:focus {
