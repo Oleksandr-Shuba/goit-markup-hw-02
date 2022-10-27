@@ -31,15 +31,15 @@ nav a {
 h1 {
     color: #212121;
 }
-.about-us .link {
+.links {
     color: #212121;
     text-decoration: none;
 }
-.about-us .link:hover,
-.about-us .link:focus {
+.links:hover,
+.links:focus {
     color: var(--blue);
 }
-.about-us .link:active {
+.links:active {
     color: var(--blue);
 }
 .contacts .email {
