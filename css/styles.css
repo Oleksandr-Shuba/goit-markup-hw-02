@@ -1,53 +1,75 @@
 body {
+    font-family: Roboto,sans-serif;
     background-color: #F5F5F5;
 }
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     text-decoration: none; 
 }
 nav a {
-    font-family: Roboto;
     font-weight: 500;
 }
-p {
-    font-family: Roboto;
-    font-weight: 400;
-}
 h1 {
-    font-family: Roboto;
-    font-weight: 700;
     color: #212121;
 }
-.about_us .link {
+.about-us .link {
     color: #212121;
 }
-.about_us .link:hover,
-.about_us .link:focus {
+.about-us .link:hover,
+.about-us .link:focus {
     color: #2196F3;
 }
 .contacts .email {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #2196F3;
 }
 .contacts .mobile {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
     color: #757575;
 }
-.buttons .button .Усі {
-    cursor: pointer;
+.buttons .button {
+    font-family: inherit;
+    cursor: pointer;  
 }
-
+.footer-part {
+    font-family: Raleway, sans-serif; 
+    background-color: #2F303A;
+}
+.footer-part .footer-logo {
+    text-decoration: none; 
+    color: #FFFFFF;
+}
+.address-list {
+    font-style: normal;
+}
+.address-list .postmail {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.address-list .email-1 {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.address-list .mobile-1 {
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
 
 
 
