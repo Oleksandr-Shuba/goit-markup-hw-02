@@ -1,90 +1,89 @@
 :root {
-    --blue:#2196F3;
-    --white:#FFFFFF;
-    --mixed:rgba(255, 255, 255, 0.6);  
+  --blue: #2196f3;
+  --white: #ffffff;
+  --mixed: rgba(255, 255, 255, 0.6);
 }
 
 body {
-    font-family: Roboto,sans-serif;
-    background-color: var(--white);
+  font-family: Roboto, sans-serif;
+  background-color: var(--white);
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 nav a {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 h2 {
-    color: #212121;
+  color: #212121;
 }
 /* -----logo begins-----*/
 .logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none; 
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .web {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .studio {
-    color: #000000;
+  color: #000000;
 }
 
 .footer-part .studio {
-    color: var(--white);
+  color: var(--white);
 }
 /* -----logo ends-----*/
 
 /* Contacts starts */
 .contacts a {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .contacts a:hover {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .footer-part .contacts a {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--mixed);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--mixed);
 }
 
 .footer-part .contacts a:hover {
-    color: var(--white);
+  color: var(--white);
 }
 /* ---- Contacts ends ------*/
 
 /* ---- Nav menu------*/
 .links a {
-    color: #212121;
+  color: #212121;
 }
 
 .links a:hover,
 .links a:focus,
-.links a.active
-{
-    color: var(--blue);
+.links a.active {
+  color: var(--blue);
 }
 /*--Nav menu end-----*/
 .footer-part {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
