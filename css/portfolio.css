@@ -1,0 +1,22 @@
+.buttons button {
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #F5F4FA; 
+    color: #212121;
+    border-radius: 4px;
+}
+
+.buttons button:hover,
+.buttons button:focus
+.buttons button:active {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.our-projects a p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}

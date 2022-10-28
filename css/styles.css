@@ -3,118 +3,88 @@
     --white:#FFFFFF;
     --mixed:rgba(255, 255, 255, 0.6);  
 }
+
 body {
     font-family: Roboto,sans-serif;
     background-color: var(--white);
 }
+
 ul {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-weight: 500;
+}
+
+h2 {
+    color: #212121;
+}
+/* -----logo begins-----*/
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--blue);
     text-decoration: none; 
 }
+
 .web {
     color: var(--blue);
 }
+
 .studio {
     color: #000000;
 }
-nav a {
-    font-weight: 500;
+
+.footer-part .studio {
+    color: var(--white);
 }
-h1 {
-    color: #212121;
-}
-.links {
-    color: #212121;
-    text-decoration: none;
-}
-.links:hover,
-.links:focus {
-    color: var(--blue);
-}
-.links:active {
-    color: var(--blue);
-}
-.contacts .email {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--blue);
-    text-decoration: none;
-}
-.contacts .mobile {
+/* -----logo ends-----*/
+
+/* Contacts starts */
+.contacts a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;
 }
-.button {
-    font-family: inherit;
-    cursor: pointer;
-    background-color: #F5F4FA; 
-    color: #212121;
-    border-radius: 4px;
+
+.contacts a:hover {
+    color: var(--blue);
 }
-.button:hover,
-.button:focus {
-    background-color: var(--blue);
+
+.footer-part .contacts a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mixed);
+}
+
+.footer-part .contacts a:hover {
     color: var(--white);
 }
+/* ---- Contacts ends ------*/
+
+/* ---- Nav menu------*/
+.links a {
+    color: #212121;
+}
+
+.links a:hover,
+.links a:focus,
+.links a.active
+{
+    color: var(--blue);
+}
+/*--Nav menu end-----*/
 .footer-part {
-    font-family: Raleway, sans-serif; 
     background-color: #2F303A;
 }
-.footer-part .footer-logo {
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--blue);
-    text-decoration: none; 
-}
-.web-footer {
-    color: var(--blue);
-}
-.studio-footer {
-    color: var(--white);
-}
-.address-list {
-    font-style: normal;
-}
-.address-list .postmail {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--white);
-    text-decoration: none;
-}
-.address-list .email-1 {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--mixed);
-    text-decoration: none;
-}
-.address-list .mobile-1 {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--mixed);
-    text-decoration: none;
-}
-
-
-
-
-
-
-
